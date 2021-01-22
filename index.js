@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.raw());
 
 app.get("/", function (req, res) {
-  res.send("Hello World");
+  res.send("Uhhh... hello?");
 });
 
 app.listen(4000, () => {
