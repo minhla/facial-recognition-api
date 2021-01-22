@@ -1,0 +1,24 @@
+{
+  "name": "face-api",
+  "version": "1.0.0",
+  "description": "Face Recognition API using face-api.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon index.js"
+  },
+  "keywords": [
+    "face-api"
+  ],
+  "author": "minhla",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^2.8.5",
+    "canvas": "^2.6.1",
+    "express": "^4.17.1",
+    "face-api.js": "^0.22.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
